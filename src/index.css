@@ -1,0 +1,1117 @@
+body {
+  margin: 0;
+  width:100%;
+  height: 100vh;
+
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+ 
+}
+.navbar{
+  
+  padding-right:10rem;
+  margin-right:5rem;
+  margin-top:0.3rem;
+  margin-left:8rem
+}
+.badgebody{
+  box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+  background-color: rgb(233, 233, 233);
+  margin-right: 8rem;
+  padding-top:2rem;
+  height:2rem;
+ 
+}
+.badgebodyicon{
+  box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+  background-color: rgb(233, 233, 233);
+  margin-right: 4rem;
+  border-radius:100% 100%;
+ 
+ 
+}
+p.navname{
+  color: rgb(74, 74, 223);
+  font-weight: bold;
+  letter-spacing:0rem;
+  padding-top:0rem;
+  font-size: 0.9rem;
+}
+h6.navnameicon{
+ display:none;
+}
+img.imgicon{
+  margin-right: 9rem;
+  width: 15rem;
+  height: 5rem;
+}
+.navitem{
+  margin-left: 0rem;
+}
+div.courseimage{
+  background-color: whitesmoke;
+  height: 16rem;
+  padding-left:1rem;
+  padding-right:2rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+}
+img.courseimage{
+  height: 14rem;
+  width: 12rem;
+}
+div.coursedetails{
+  background-color: whitesmoke;
+  box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+  height: 22rem;
+  padding:1.2rem;
+}
+h6.coursename{
+  color: black;
+  font-size: 1.05rem;
+  
+}
+.btnleft{
+  border: 1px solid black;
+  background-color:white;
+  color:black;
+  border-radius:20rem;
+  height:1.5rem;
+  margin-top:-0.8rem;
+  width: 6.5rem;
+  text-align: center;
+  padding-bottom: 0.4rem;
+  font-size:0.66rem;
+}
+.btnleft:hover{
+  background-color:rgb(255, 174, 23);
+  cursor: pointer;
+  color: white;
+}
+.btnright{
+  border: 1px solid black;
+  background-color:rgb(255, 174, 23);
+  color:white;
+  border-radius:20rem;
+  height:1.5rem;
+  margin-top:-1.5rem;
+  margin-left: 6.6rem;
+  width: 6rem;
+  text-align: center;
+  padding-bottom: 0.4rem;
+  font-size:0.7rem;
+}
+.btnright:hover{
+  cursor: pointer;
+}
+div.coursequote{
+  background-color: whitesmoke;
+  box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+  height: 36rem;
+  padding-top:0.8rem;
+  margin-top: 2rem;
+}
+div.coursequotebodyone{
+  background-color: rgb(226, 222, 226);
+  height: 6rem;
+  margin-top: 0.1rem;
+  font-size: 0.8rem;
+  padding:0.8rem;
+}
+div.coursequotebodytwo{
+  background-color: rgb(233, 233, 233);
+  height: 6rem;
+  margin-top: 0.1rem;
+  border:1px solid rgb(216, 216, 216);
+  font-size: 0.8rem;
+  padding:0.7rem;
+}
+div.coursequotebody{
+  background-color:white;
+  height: 6rem;
+  margin-top: 0.1rem;
+  border:1px solid rgb(216, 216, 216);
+  font-size: 0.8rem;
+  padding:0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 321px) { 
+  body {
+    margin: 0;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    
+   
+  }
+  .navbar{
+    
+    padding-right:10rem;
+    margin-right:5rem;
+    margin-top:0.3rem;
+    margin-left:8rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: 8rem;
+    padding-top:2rem;
+    height:2rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: 4rem;
+    border-radius:100% 100%;
+   
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bold;
+    letter-spacing:0rem;
+    padding-top:0rem;
+    font-size: 0.9rem;
+  }
+  h6.navnameicon{
+   display:none;
+  }
+  img.imgicon{
+    margin-right: 9rem;
+    width: 15rem;
+    height: 5rem;
+  }
+  .navitem{
+    margin-left: 0rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16rem;
+    padding-left:2.0rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  img.courseimage{
+    height: 14rem;
+    width: 13rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 20rem;
+    padding:1.2rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 1.05rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-0.8rem;
+    width: 7rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    font-size:0.7rem;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.5rem;
+    margin-left: 8rem;
+    width: 6rem;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    font-size:0.7rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 36rem;
+    padding-top:0.8rem;
+    margin-top: 2rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 6rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    padding:0.8rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  html{
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    width:100%;
+  overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+   
+  }
+  .navbar{
+    
+    padding-right:0rem;
+    margin-right:0.111rem;
+    margin-top:0.2rem;
+    margin-left:-7rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    height:1.7rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    border-radius:100% 100%;
+    margin-left: 7rem;
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bolder;
+    letter-spacing:0rem;
+    padding-top:0.5rem;
+    font-size: 0.5rem;
+  }
+  h6.navnameicon{
+    color:black;
+    font-weight: bold;
+    display: inline;
+  }
+  img.imgicon{
+    margin-right:-10rem;
+    margin-left: 0.55rem;
+    width:19rem;
+    height: 3.0rem;
+  }
+  .navitem{
+    margin-left:3rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  img.courseimage{
+    height: 14rem;
+    width: 12rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 16rem;
+    padding:1.2rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 1.05rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.8rem;
+    margin-top:-0.8rem;
+    width: 8.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: small;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.7rem;
+    margin-left: 9rem;
+    width: 8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 36rem;
+    padding-top:0.8rem;
+    margin-top: 0rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 6rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    padding:0.8rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  
+  
+  
+ 
+  
+	
+}
+
+
+
+
+
+
+
+@media (min-width: 715px) {  
+  html{
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    width:100%;
+  overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+   
+  }
+  .navbar{
+    
+    padding-right:0rem;
+    margin-right:0.111rem;
+    margin-top:0.2rem;
+    margin-left:-7rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    height:1.7rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    border-radius:100% 100%;
+    margin-left: 0rem;
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bolder;
+    letter-spacing:0rem;
+    padding-top:0.5rem;
+    font-size: 0.5rem;
+  }
+  h6.navnameicon{
+    color:black;
+    font-weight: bold;
+    display: inline;
+  }
+  img.imgicon{
+    margin-right:-10rem;
+    margin-left: 0.55rem;
+    width:19rem;
+    height: 3.0rem;
+  }
+  .navitem{
+    margin-left:3rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  img.courseimage{
+    height: 14rem;
+    width: 12rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 16rem;
+    padding:1.2rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 1.05rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.8rem;
+    margin-top:-0.8rem;
+    width: 8.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: small;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.7rem;
+    margin-left: 9rem;
+    width: 8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 36rem;
+    padding-top:0.8rem;
+    margin-top: 0rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 6rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    padding:0.8rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  
+  
+  
+ 
+  
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+  html{
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    width:100%;
+  overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+   
+  }
+  .navbar{
+    
+    padding-right:0rem;
+    margin-right:0.111rem;
+    margin-top:0.2rem;
+    margin-left:-7rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    height:1.7rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    border-radius:100% 100%;
+    margin-left: 0rem;
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bolder;
+    letter-spacing:0rem;
+    padding-top:0.5rem;
+    font-size: 0.6rem;
+  }
+  h6.navnameicon{
+    color:black;
+    font-weight: bold;
+    display: inline;
+  }
+  img.imgicon{
+    margin-right:-10rem;
+    margin-left: 0.5rem;
+    width:19rem;
+    height: 3.3rem;
+  }
+  .navitem{
+    margin-left:5rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16rem;
+    padding-left:0.4rem;
+    padding-right:0rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+  }
+  img.courseimage{
+    height: 15rem;
+    width: 8.5rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 16rem;
+    padding:0.4rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 0.8rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-0.8rem;
+    width: 8.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: small;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.5rem;
+    margin-left: 9rem;
+    width: 8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 40rem;
+    padding-top:0.3rem;
+    margin-top: 0rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 7rem;
+    margin-top: 0.1rem;
+    font-size: 0.68rem;
+    padding:0.3rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 7rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.68rem;
+    padding:0.3rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 7rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.68rem;
+    padding:0.3rem;
+  }
+  
+  
+  
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+	html{
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    width:100%;
+  overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+   
+  }
+  .navbar{
+    
+    padding-right:0rem;
+    margin-right:0.111rem;
+    margin-top:0.3rem;
+    margin-left:-7rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    height:1.8rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    border-radius:100% 100%;
+    margin-left: 0rem;
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bold;
+    letter-spacing:0rem;
+    padding-top:0.5rem;
+    font-size: 0.8rem;
+  }
+  h6.navnameicon{
+    color:black;
+    font-weight: bold;
+    display: inline;
+  }
+  img.imgicon{
+    margin-right:-10rem;
+    margin-left: 0.5rem;
+    width:20rem;
+    height: 3.5rem;
+  }
+  .navitem{
+    margin-left:5rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  img.courseimage{
+    height: 14rem;
+    width: 11rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 16.5rem;
+    padding:0.8rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 1.0rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-0.8rem;
+    width: 8.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: small;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.5rem;
+    margin-left: 9rem;
+    width: 8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 36rem;
+    padding-top:0.8rem;
+    margin-top: 0rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 6rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    padding:0.8rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  
+  
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  body {
+    margin: 0;
+    width:100%;
+    height: 100vh;
+
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+   
+  }
+  .navbar{
+    
+    padding-right:10rem;
+    margin-right:5rem;
+    margin-top:0.2rem;
+    margin-left:-0.2rem
+  }
+  .badgebody{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    padding-top:2rem;
+    height:2rem;
+   
+  }
+  .badgebodyicon{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-right: -1.009rem;
+    border-radius:100% 100%;
+    margin-left: 0rem;
+   
+   
+  }
+  p.navname{
+    color: rgb(74, 74, 223);
+    font-weight: bold;
+    letter-spacing:0rem;
+    padding-top:0.5rem;
+    font-size: 0.9rem;
+  }
+  h6.navnameicon{
+    color:black;
+    font-weight: bold;
+  }
+  img.imgicon{
+    margin-right: 9rem;
+    width: 20rem;
+    height: 4rem;
+  }
+  .navitem{
+    margin-left: 2rem;
+  }
+  div.courseimage{
+    background-color: whitesmoke;
+    height: 16rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  img.courseimage{
+    height: 14rem;
+    width: 12rem;
+  }
+  div.coursedetails{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 16rem;
+    padding:1.2rem;
+  }
+  h6.coursename{
+    color: black;
+    font-size: 1.05rem;
+    
+  }
+  .btnleft{
+    border: 1px solid black;
+    background-color:white;
+    color:black;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-0.8rem;
+    width: 8.5rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: small;
+  }
+  .btnleft:hover{
+    background-color:rgb(255, 174, 23);
+    cursor: pointer;
+    color: white;
+  }
+  .btnright{
+    border: 1px solid black;
+    background-color:rgb(255, 174, 23);
+    color:white;
+    border-radius:20rem;
+    height:1.5rem;
+    margin-top:-1.5rem;
+    margin-left: 9rem;
+    width: 8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+  }
+  .btnright:hover{
+    cursor: pointer;
+  }
+  div.coursequote{
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    height: 36rem;
+    padding-top:0.8rem;
+    margin-top: 0rem;
+  }
+  div.coursequotebodyone{
+    background-color: rgb(226, 222, 226);
+    height: 6rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    padding:0.8rem;
+  }
+  div.coursequotebodytwo{
+    background-color: rgb(233, 233, 233);
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  div.coursequotebody{
+    background-color:white;
+    height: 6rem;
+    margin-top: 0.1rem;
+    border:1px solid rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding:0.7rem;
+  }
+  
+  
+  
+  
+ 
+ 
+
+}
