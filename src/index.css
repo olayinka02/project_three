@@ -13,40 +13,60 @@ body {
  
 }
 .navbar{
+  width:100%;
+  margin-left: 0rem;
+ 
+}
+
+.badgebodyiconx{
+  box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+  background-color: rgb(233, 233, 233);
+  margin-left: 1rem;
   
-  padding-right:10rem;
-  margin-right:5rem;
-  margin-top:0.3rem;
-  margin-left:8rem
+ 
+ 
 }
-.badgebody{
+.badgebodyicony{
   box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
   background-color: rgb(233, 233, 233);
-  margin-right: 8rem;
-  padding-top:2rem;
-  height:2rem;
+  margin-left:1rem;
+ 
+ 
  
 }
-.badgebodyicon{
+.badgebodyiconz{
   box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
   background-color: rgb(233, 233, 233);
-  margin-right: 4rem;
-  border-radius:100% 100%;
+  margin-left: 1rem;
+ 
  
  
 }
-p.navname{
+.mr-auto{
+  margin-left: 4rem;
+ 
+}
+.navname{
   color: rgb(74, 74, 223);
+  background-color: rgb(233, 233, 233) ;
   font-weight: bold;
   letter-spacing:0rem;
   padding-top:0rem;
+  padding-left:0.2rem;
+  padding-right:0.2rem;
   font-size: 0.9rem;
+  margin-left: 2rem;
+ 
+}
+span.icon{
+  margin-left:4rem;
+  display: inline;
 }
 h6.navnameicon{
  display:none;
 }
 img.imgicon{
-  margin-right: 9rem;
+  margin-right:2rem;
   width: 15rem;
   height: 5rem;
 }
@@ -170,34 +190,55 @@ div.coursequotebody{
     margin-top:0.3rem;
     margin-left:8rem
   }
-  .badgebody{
+ 
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: 8rem;
-    padding-top:2rem;
-    height:2rem;
-   
-  }
-  .badgebodyicon{
-    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
-    background-color: rgb(233, 233, 233);
-    margin-right: 4rem;
-    border-radius:100% 100%;
+    margin-left: -13rem;
+    padding-left: 0.1rem;
+    
    
    
   }
-  p.navname{
+  .badgebodyicony{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left:-13rem;
+    padding-left: 0.1rem;
+    
+   
+   
+  }
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: -13rem;
+    padding-left: 0.1rem;
+   
+   
+   
+  }
+  .mr-auto{
+    margin-left: 4rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
+    background-color: rgb(233, 233, 233) ;
     font-weight: bold;
     letter-spacing:0rem;
     padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
     font-size: 0.9rem;
+    margin-left:-13rem;
+   
   }
   h6.navnameicon{
    display:none;
   }
   img.imgicon{
-    margin-right: 9rem;
+    margin-left:-11rem;
     width: 15rem;
     height: 5rem;
   }
@@ -207,10 +248,13 @@ div.coursequotebody{
   div.courseimage{
     background-color: whitesmoke;
     height: 16rem;
-    padding-left:2.0rem;
+    padding-left:1.0rem;
     padding-right:2rem;
     padding-top:1rem;
     padding-bottom: 1rem;
+   
+  
+  
   }
   img.courseimage{
     height: 14rem;
@@ -221,6 +265,8 @@ div.coursequotebody{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     height: 20rem;
     padding:1.2rem;
+   
+    
   }
   h6.coursename{
     color: black;
@@ -266,6 +312,7 @@ div.coursequotebody{
     height: 36rem;
     padding-top:0.8rem;
     margin-top: 2rem;
+    
   }
   div.coursequotebodyone{
     background-color: rgb(226, 222, 226);
@@ -329,27 +376,46 @@ div.coursequotebody{
     margin-top:0.2rem;
     margin-left:-7rem
   }
-  .badgebody{
+ 
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    height:1.7rem;
+    margin-left: 2rem;
+    
+   
    
   }
-  .badgebodyicon{
+  .badgebodyicony{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    border-radius:100% 100%;
-    margin-left: 7rem;
+    margin-left:2rem;
+   
+   
    
   }
-  p.navname{
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: 2rem;
+    
+   
+   
+  }
+  .mr-auto{
+    margin-left: 4rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
-    font-weight: bolder;
+    background-color: rgb(233, 233, 233) ;
+    font-weight: bold;
     letter-spacing:0rem;
-    padding-top:0.5rem;
-    font-size: 0.5rem;
+    padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+   
   }
   h6.navnameicon{
     color:black;
@@ -426,7 +492,7 @@ div.coursequotebody{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     height: 36rem;
     padding-top:0.8rem;
-    margin-top: 0rem;
+    margin-top:2rem;
   }
   div.coursequotebodyone{
     background-color: rgb(226, 222, 226);
@@ -483,32 +549,50 @@ div.coursequotebody{
   }
   .navbar{
     
-    padding-right:0rem;
-    margin-right:0.111rem;
-    margin-top:0.2rem;
-    margin-left:-7rem
+   width: 100%;
+   margin-left:0.1rem;
+   margin-right: 0.4rem;
   }
-  .badgebody{
+ 
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    height:1.7rem;
+    margin-left: 2rem;
+    
+   
    
   }
-  .badgebodyicon{
+  .badgebodyicony{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    border-radius:100% 100%;
-    margin-left: 0rem;
+    margin-left:2rem;
+    
+   
    
   }
-  p.navname{
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: 2rem;
+    
+   
+   
+  }
+  .mr-auto{
+    margin-left: 4rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
-    font-weight: bolder;
+    background-color: rgb(233, 233, 233) ;
+    font-weight: bold;
     letter-spacing:0rem;
-    padding-top:0.5rem;
-    font-size: 0.5rem;
+    padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+   
   }
   h6.navnameicon{
     color:black;
@@ -517,12 +601,12 @@ div.coursequotebody{
   }
   img.imgicon{
     margin-right:-10rem;
-    margin-left: 0.55rem;
-    width:19rem;
-    height: 3.0rem;
+    margin-left: 0.4rem;
+    width:16rem;
+    height: 3.5rem;
   }
   .navitem{
-    margin-left:3rem;
+    margin-left:3.3rem;
   }
   div.courseimage{
     background-color: whitesmoke;
@@ -585,7 +669,7 @@ div.coursequotebody{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     height: 36rem;
     padding-top:0.8rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
   }
   div.coursequotebodyone{
     background-color: rgb(226, 222, 226);
@@ -650,32 +734,48 @@ div.coursequotebody{
   }
   .navbar{
     
-    padding-right:0rem;
-    margin-right:0.111rem;
-    margin-top:0.2rem;
-    margin-left:-7rem
+  width: 100%;
   }
-  .badgebody{
+  
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    height:1.7rem;
+    margin-left: 2rem;
+   
+   
    
   }
-  .badgebodyicon{
+  .badgebodyicony{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    border-radius:100% 100%;
-    margin-left: 0rem;
+    margin-left:2rem;
+    
+   
    
   }
-  p.navname{
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: 2rem;
+    
+   
+   
+  }
+  .mr-auto{
+    margin-left: 4rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
-    font-weight: bolder;
+    background-color: rgb(233, 233, 233) ;
+    font-weight: bold;
     letter-spacing:0rem;
-    padding-top:0.5rem;
-    font-size: 0.6rem;
+    padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+   
   }
   h6.navnameicon{
     color:black;
@@ -758,7 +858,7 @@ div.coursequotebody{
     background-color: rgb(226, 222, 226);
     height: 7rem;
     margin-top: 0.1rem;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     padding:0.3rem;
   }
   div.coursequotebodytwo{
@@ -766,7 +866,7 @@ div.coursequotebody{
     height: 7rem;
     margin-top: 0.1rem;
     border:1px solid rgb(216, 216, 216);
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     padding:0.3rem;
   }
   div.coursequotebody{
@@ -774,7 +874,7 @@ div.coursequotebody{
     height: 7rem;
     margin-top: 0.1rem;
     border:1px solid rgb(216, 216, 216);
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     padding:0.3rem;
   }
   
@@ -815,33 +915,48 @@ div.coursequotebody{
    
   }
   .navbar{
-    
-    padding-right:0rem;
-    margin-right:0.111rem;
-    margin-top:0.3rem;
-    margin-left:-7rem
+    width:100%;
   }
-  .badgebody{
+ 
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    height:1.8rem;
-   
-  }
-  .badgebodyicon{
-    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
-    background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
+    margin-left: 4rem;
     border-radius:100% 100%;
-    margin-left: 0rem;
+   
    
   }
-  p.navname{
+  .badgebodyicony{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left:1rem;
+    border-radius:100% 100%;
+   
+   
+  }
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: 1rem;
+    border-radius:100% 100%;
+   
+   
+  }
+  .mr-auto{
+    margin-left: 4rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
+    background-color: rgb(233, 233, 233) ;
     font-weight: bold;
     letter-spacing:0rem;
-    padding-top:0.5rem;
-    font-size: 0.8rem;
+    padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+   
   }
   h6.navnameicon{
     color:black;
@@ -980,41 +1095,55 @@ div.coursequotebody{
   }
   .navbar{
     
-    padding-right:10rem;
-    margin-right:5rem;
-    margin-top:0.2rem;
-    margin-left:-0.2rem
+   width:100%;
   }
-  .badgebody{
+ 
+  .badgebodyiconx{
     box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
     background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
-    padding-top:2rem;
-    height:2rem;
-   
-  }
-  .badgebodyicon{
-    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
-    background-color: rgb(233, 233, 233);
-    margin-right: -1.009rem;
+    margin-left: 4rem;
     border-radius:100% 100%;
-    margin-left: 0rem;
    
    
   }
-  p.navname{
+  .badgebodyicony{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left:1rem;
+    border-radius:100% 100%;
+   
+   
+  }
+  .badgebodyiconz{
+    box-shadow: 0px 3px 8px -6px rgb(0, 0, 0, 0.3);
+    background-color: rgb(233, 233, 233);
+    margin-left: 1rem;
+    border-radius:100% 100%;
+   
+   
+  }
+  .mr-auto{
+    margin-left:6rem;
+   
+  }
+  .navname{
     color: rgb(74, 74, 223);
+    background-color: rgb(233, 233, 233) ;
     font-weight: bold;
     letter-spacing:0rem;
-    padding-top:0.5rem;
+    padding-top:0rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
     font-size: 0.9rem;
+    margin-left: 2rem;
+   
   }
   h6.navnameicon{
     color:black;
     font-weight: bold;
   }
   img.imgicon{
-    margin-right: 9rem;
+    margin-right:-4rem;
     width: 20rem;
     height: 4rem;
   }
