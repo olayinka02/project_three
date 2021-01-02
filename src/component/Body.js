@@ -65,7 +65,7 @@ class Body extends Component {
                                    <div>
                                    <Dropdown style={{paddingLeft:-10,}}>
                                       <Dropdown.Toggle variant="outline-info" style={{borderRadius:30,height:27,color:'black'}} size="sm" id="dropdown-basic">
-                                        Dropdown Button
+                                        choose platform
                                       </Dropdown.Toggle>
 
                                       <Dropdown.Menu>
@@ -158,7 +158,7 @@ class Body extends Component {
                                  
                                   
 
-                                    <div className="btnright"> choose platform</div>
+                                    <div className="btnright">start live section</div>
                                    </div>
                                   
 
