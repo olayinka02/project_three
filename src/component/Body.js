@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Dropdown } from 'react-bootstrap';
 import dielectric from './image/dielectric.jpg';
+import zoomimg from './image/zoomimg.png';
+import jiomeet from './image/jiomeet.png';
+import youtube from './image/youtube.png';
+import facebook from './image/facebook.png';
+import google from './image/google.png';
+import microsoft from './image/microsoft.png';
+
 
 class Body extends Component {
   render() {
@@ -56,10 +63,101 @@ class Body extends Component {
                                    </p>
                                    <p>start live session using:</p>
                                    <div>
-                                    <div className="btnleft"> 
-                                    choose platform <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                                    </svg></div>
+                                   <Dropdown style={{paddingLeft:-10,}}>
+                                      <Dropdown.Toggle variant="outline-info" style={{borderRadius:30,height:27,color:'black'}} size="sm" id="dropdown-basic">
+                                        Dropdown Button
+                                      </Dropdown.Toggle>
+
+                                      <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={zoomimg}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="50"
+                                        height="40"
+                                        /> <b>zoom</b>
+                                        </Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={jiomeet}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="37"
+                                        height="38"
+                                        /><b>  jiomeet</b>
+
+                                        </Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={youtube}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="37"
+                                        height="38"
+                                        /><b>  youtube</b>
+
+                                        </Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={facebook}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="43"
+                                        height="23"
+                                        /><b>  facebook</b>
+
+                                        </Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={google}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="40"
+                                        height="32"
+                                        /><b>  Google</b>
+
+                                        </Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                        <img
+                                        src={microsoft}
+                                        className="d-inline-block align-top"
+                                        alt="socialicon"
+                                        width="40"
+                                        height="34"
+                                        /><b>  microsoft</b>
+
+                                        </Dropdown.Item>
+                                       
+                                      </Dropdown.Menu>
+                                    </Dropdown>
+                                 
+                                  
+
                                     <div className="btnright"> choose platform</div>
                                    </div>
                                   
@@ -132,5 +230,19 @@ class Body extends Component {
 
 
 export default Body;
+
+
+<Dropdown>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+    Dropdown Button
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+
 
  
